@@ -1,0 +1,18 @@
+.hulu_logo_img img{
+    max-width: 250px;
+}
+
+.bg_dark_blue {
+    background-color: #0F4759;
+}
+
+.bg_dark_blue img {
+    max-width: 355px;
+    margin-left: 200px;
+}
+
+#black_section {
+    background-color: black;
+    height: 1400px;
+    width: auto;
+}
