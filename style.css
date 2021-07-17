@@ -2,8 +2,21 @@
     max-width: 250px;
 }
 
+.month_free {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #00ED82;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+.watch_1000 {
+    font-size:22px;
+}
 .bg_dark_blue {
     background-color: #0F4759;
+    height: 120px;
 }
 
 .bg_dark_blue img {
@@ -15,4 +28,42 @@
     background-color: black;
     height: 1400px;
     width: auto;
+}
+
+/* .hulu_square img {
+    max-width: 300px;
+    max-height: 480px;
+} */
+
+.all_the_tv_you_love {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.all_plans_included {
+    color: #00ED82;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    letter-spacing: 1.4px;
+}
+
+#start_free_trial_button:hover {
+    opacity: 80%;
+}
+
+.get_hulu_text {
+    font-size: 24px;
+    line-height:32px;
+    color : #fff;
+}
+
+.all_the_tv_you_love {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color : #FCFCFC;
+    font-size: 800;
+}
+
+.stream-full {
+    color: #FFF;
+    font-size: 24px;
 }

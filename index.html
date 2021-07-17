@@ -10,41 +10,69 @@
 </head>
 <body>
     <section id="hulu_content">
-
-        <div class="container-fluid d-flex justify-content-center " style="background-image: url('img/hulu_bgr.jpg'); height: 35vh;">
+        <div class="container-fluid justify-content-center text-center" style="background-image: url('img/hulu_bgr.jpg'); height: 60vh;">
            <div class="center_container p-5"> 
-            <div class="month_free text-light justify-content-center">
-                Try up to one month free
+            <div class="month_free">
+                TRY UP ONE MONTH FREE
             </div>
-            <div class="hulu_logo_img">
+            <div class="hulu_logo_img p-4">
                <img src="img/hulu_logo.png" />
             </div>
-            <div class="watch_1000 text-light">
+            <div class="watch_1000 text-light py-2">
                 Watch thousands of TV shows and movies
             </div>
-            <div class="hbo_max text-bolder text-light">
+            <div class="hbo_max text-bolder text-light py-2">
                 HBO Max(tm) , Showtime(c), CINEMAX(c) and STARZ(c) available as add-ons
             </div>
-            <button class="btn btn-lg btn-secondary">Start your free trial</button>
-            <small>Free trial for new & eligible returning subscribers only.</small>4
-
+            <button id="start_free_trial_button" class="btn btn-lg btn-light text-dark justify-content-center mt-2">START YOUR FREE TRIAL</button>
+            <div class="small_free_trial text-muted text-light">
+                <small>Free trial for new & eligible returning subscribers only.</small>
+            </div>
+           </div>
         </div>   
-
-    </div>
-    <div class="bg_dark_blue my-auto">
-        <div class="row">
+        <div class="bg_dark_blue">
+        <div class="row align-items-center">
             <div class="col-md-4">  <img src="img/hulu_disney.png" /></div>
-            <div class="col-md-6"> 
-                <div class="budle_with_hulu"> BUNDLE WITH ANY HULU PLAN & SAVE </div>
+            <div class="col-md-6 justify-content-center"> 
+                <div class="budle_with_hulu month_free text-left pt-4"> BUNDLE WITH ANY HULU PLAN & SAVE </div>
                 <div class="get_hulu_text">Get Hulu, Disney+, and ESPN+. </div>
-                <div class="details_hulu">Details</div>
+                <a href="#" class="details_hulu text-decoration-underline text-light pt-2">Details</a>
              </div>
-            <div class="col-md-2"> <button class="btn btn-lg btn-outline-secondary">GET BUNDLE</button> </div>
+            <div class="col-md-2"> 
+                <button id="get_bundle_button" class="btn btn-lg btn-outline-light">GET BUNDLE</button> 
+            </div>
         </div>
-    </div>
+        </div>
     </section>
     <section id="black_section">
-        
+        <div class="container-xl my justify-content-center text-center">
+        <div class="all_plans_included py-5"> 
+            INCLUDED IN ALL PLANS
+        </div>
+        <div class="all_the_tv_you_love">
+            All The TV You Love
+        </div>
+        <div class="stream-full">
+            Stream full seasons of exclusive series, current-season episodes, hit <br />
+            movies, Hulu Originals, kids shows, and more.
+        </div>    
+    </div>
+    <div class="container-lg mt-5">
+       <div class="row justify-content-between">
+            <div class="col hulu_square">
+                 <img  class="img-fluid" src="img/hulu_square_1.jpg" />
+            </div>
+            <div class="col hulu_square">
+                <img  class="img-fluid" src="img/hulu_square_2.jpg" />
+            </div>
+            <div class="col hulu_square">
+                <img class="img-fluid" src="img/hulu_square_3.jpg" />
+            </div>
+            <div class="col hulu_square">
+                <img class="img-fluid" src="img/hulu_square_4.jpg" />
+            </div>
+        </div>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
