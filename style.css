@@ -26,7 +26,7 @@
 
 #black_section {
     background-color: black;
-    height: 1400px;
+    height: 900px;
     width: auto;
 }
 
@@ -66,4 +66,38 @@
 .stream-full {
     color: #FFF;
     font-size: 24px;
+}
+
+#white-section {
+    background-color: cornsilk;
+    height: 800px;
+}
+.nav-select-your-plan {
+    font-size: 28px;
+    font-weight :bolder;
+    letter-spacing: -0.5px;
+    font-family: 'Graphik';
+}
+
+.most-popular {
+    font-family: 'Graphik';
+    max-width: 120px;
+    height: 30px;
+    font-size: 10px;
+    padding: 8px 2px;
+    letter-spacing: 1.1px;
+}
+
+.hulu-tariff-title {
+    font-family: 'Graphik';
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.trial-period {
+    color: #888;
+    text-transform: uppercase;
+    font-family: 'Graphik';
+    font-weight: 600;
+    font-size: ;
 }
